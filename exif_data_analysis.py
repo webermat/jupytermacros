@@ -9,7 +9,7 @@ def run_analysis():
         file_list.append(pd.read_csv("/Users/matthiasweber/outputEXIFcsvs/PhotoEXIFDataDayType_%s.csv"%(str(input))))
     
 
-        print (file_list[0])
+    print (file_list[0])
 
 
 run_analysis()
